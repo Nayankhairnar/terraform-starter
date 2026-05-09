@@ -1,5 +1,5 @@
 resource "random_pet" "name" {
-  lenght = 2
+  length = 3
   }
 
   resource "local_file" "hello" {
