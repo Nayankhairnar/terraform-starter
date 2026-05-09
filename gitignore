@@ -1,0 +1,15 @@
+# Terraform local cache
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state (never commit)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive tfvars
+*.tfvars
+*.tfvars.json
