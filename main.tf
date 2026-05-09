@@ -6,4 +6,4 @@ resource "random_pet" "name" {
    filename = "${path.module}/hello.txt"
    content = "Hello Terraform! Name = ${random_pet.name.id}\n"
    }
-   ''
+   
