@@ -4,11 +4,11 @@ terraform {
  required_providers {
   local = {
    source = "hashicorp/local"
-   version = ">= 3.8.1"
+   version = ">= 2.8"
  }
 random = {
  source = "hashicorp/random"
- version = ">= 3.8.1"
+ version = ">= 3.8"
     }
   }
 }
